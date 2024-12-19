@@ -1,0 +1,16 @@
+body {
+  min-height: 10000px;
+}
+
+.card-img-overlay {
+  top: 25%;
+}
+
+.navbar {
+  transition: all 0.5s;
+}
+
+.navbar-scroll {
+  background-color: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
