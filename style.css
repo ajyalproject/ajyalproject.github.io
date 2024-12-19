@@ -3,10 +3,24 @@ body {
 }
 
 .card-img-overlay {
-  top: 30%;
+  top: 35%;
+}
+
+.card-img {
+  height: 100vh; /* Sesuaikan dengan tinggi viewport */
+  object-fit: cover; /* Memotong gambar agar sesuai dengan area */
+  object-position: center; /* Memusatkan gambar saat dipotong */
+}
+
+.card-group p {
+  color: rgb(82, 82, 82);
 }
 
 .navbar {
+  transition: all 0.5s;
+}
+
+.container {
   transition: all 0.5s;
 }
 
@@ -14,10 +28,4 @@ body {
   color: white;
   background-color: white;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-}
-
-.card-img {
-  height: 100vh; /* Sesuaikan dengan tinggi viewport */
-  object-fit: cover; /* Memotong gambar agar sesuai dengan area */
-  object-position: center; /* Memusatkan gambar saat dipotong */
 }

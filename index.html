@@ -13,29 +13,29 @@
 
     <title>Ajyal Project</title>
   </head>
-  <body>
+  <body id="Home">
     <!-- ? Navbar  -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-dark navbar-scroll" id="navbar">
-      <div class="container">
+      <div class="container mt-3 mb-3" id="navContainer">
         <a class="navbar-brand fw-bold" href="#">
-          <img src="img/logo.png" alt="" width="28" height="28" class="d-inline-block align-text-top" />
+          <img src="img/logo.png" alt="" width="28" height="28" class="d-inline-block align-text-top mx-2" />
           Ajyal Project
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              <a class="nav-link active" href="#Home">Home</a>
             </li>
-            <li class="nav-item text-end">
+            <li class="nav-item">
               <a class="nav-link" href="#About">About</a>
             </li>
-            <li class="nav-item text-end">
+            <li class="nav-item">
               <a class="nav-link" href="#Projects">Projects</a>
             </li>
-            <li class="nav-item text-end">
+            <li class="nav-item">
               <a class="nav-link" href="#Contact">Contact us</a>
             </li>
           </ul>
@@ -46,14 +46,85 @@
 
     <!-- ? Banner -->
     <div class="card bg-dark text-white text-center justify-content-center">
-      <img src="img/banner.png" class="card-img" alt="Banner" class="img-fluid justify-content-center" />
+      <img src="img/banner.png" class="card-img img-fluid justify-content-center" alt="Banner" />
       <div class="card-img-overlay">
-        <p class="card-text fs-3">Text</p>
-        <h5 class="card-title fs-1 fw-bold">Ajyal Projext</h5>
-        <p class="card-text fs-5">Sub Text</p>
+        <p class="fs-3">Text</p>
+        <h5 class="fs-1 fw-bold">Ajyal Project</h5>
+        <p class="fs-5">Sub Text</p>
       </div>
     </div>
     <!-- ? Akhir Banner -->
+
+    <!-- ? About -->
+    <section id="About">
+      <div class="container">
+        <div class="row text-center mt-5">
+          <div class="col-sm mt-5 mb-3">
+            <h1>Introduction</h1>
+          </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, laudantium expedita! Eum amet omnis dignissimos, rerum aspernatur nostrum maxime delectus sequi. Nulla ut ea mollitia!</p>
+          </div>
+          <div class="col-sm-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, laudantium expedita! Eum amet omnis dignissimos, rerum aspernatur nostrum maxime delectus sequi. Nulla ut ea mollitia!</p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+          <div class="col-sm-8">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere quam doloremque placeat quisquam voluptate mollitia modi illum optio! Necessitatibus, pariatur quaerat. Exercitationem, illo. Rem ratione voluptatibus consequatur doloribus quas. Voluptas quidem blanditiis perspiciatis ea, atque ut distinctio modi reprehenderit, illum eligendi deserunt. Quisquam minima magnam dignissimos adipisci earum sequi voluptates?</p>
+          </div>
+      </div>
+    </section>
+    <!-- ? Akhir About -->
+
+    <!-- ? Project -->
+    <section id="Projects">
+      <div class="container text-center mb-3 mt-5">
+        <h2>Our Project</h2>
+      </div>
+      <div class="card-group m-3 text-center">
+        <div class="card m-2">
+          <img src="img/project-1.png" class="card-img-top img-thumbnail" alt="img/project-1.png">
+          <div class="card-body">
+            <p class="card-text">Project 1</p>
+          </div>
+        </div>
+        <div class="card m-2">
+          <img src="img/project-2.png" class="card-img-top img-thumbnail" alt="img/project-2.png">
+          <div class="card-body">
+            <p class="card-text">Project 2</p>
+          </div>
+        </div>
+        <div class="card m-2">
+          <img src="img/project-3.png" class="card-img-top img-thumbnail" alt="img/project-3.png">
+          <div class="card-body">
+            <p class="card-text">Project 3</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group m-3 text-center">
+        <div class="card m-2">
+          <img src="img/project-4.png" class="card-img-top img-thumbnail" alt="img/project-4.png">
+          <div class="card-body">
+            <p class="card-text">Project 4</p>
+          </div>
+        </div>
+        <div class="card m-2">
+          <img src="img/project-5.png" class="card-img-top img-thumbnail" alt="img/project-5.png">
+          <div class="card-body">
+            <p class="card-text">Project 5</p>
+          </div>
+        </div>
+        <div class="card m-2">
+          <img src="img/project-6.png" class="card-img-top img-thumbnail" alt="img/project-6.png">
+          <div class="card-body">
+            <p class="card-text">Project 6</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ? Akhir Project -->
 
     <!-- ! My Script -->
     <script src="script.js"></script>
