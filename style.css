@@ -1,0 +1,41 @@
+.animatios {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.animatios:hover{
+  transform: scale(1.1);
+}
+
+h2.hide-me {
+  display: none;
+  visibility: hidden;
+  }
+
+/* 8. footer */
+#footer {
+padding: 0;
+z-index: 100;
+text-align: center;
+}
+
+.footer-credits {
+margin: 0 auto -27px auto;
+}
+
+.footer-credits-logo {
+margin: -3px auto -2px auto;
+}
+
+.footer-credits-copyright-wrapper {
+height: 40px;
+}
+
+.footer-credits-copyright {
+font-size: 9px;
+font-weight: 700;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 0.05em;
+z-index: 100;
+}
