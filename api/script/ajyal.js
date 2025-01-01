@@ -168,7 +168,7 @@ $(function() {
         // Cek apakah ada riwayat sebelumnya
         if (window.history.length > 1) {
             // Kembali ke halaman sebelumnya
-            window.location.href = "../../photoghrapy/event/event.html";
+            window.location.href = "event.html";
         } else {
             // Jika tidak ada riwayat sebelumnya, arahkan ke halaman utama (atau halaman lain)
             window.location.href = "/"; // Ganti "/" dengan URL halaman utama Anda
