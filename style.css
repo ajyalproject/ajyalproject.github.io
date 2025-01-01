@@ -39,3 +39,10 @@ text-align: center;
 letter-spacing: 0.05em;
 z-index: 100;
 }
+
+.copyright-logo {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
