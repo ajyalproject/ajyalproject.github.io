@@ -29,11 +29,7 @@ $(function() {
 	
     // 2. swiper slider
     var swiper = new Swiper(".swiper-container-wrapper .swiper-container", {
-        preloadImages: false,
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false
-        },
+        preloadImages: true,
         init: true,
         loop: false,
         speed: 1200,
@@ -57,7 +53,7 @@ $(function() {
     swiper.on("slideChangeTransitionStart", function() {
         $(".slider-progress-bar").removeClass("slider-active");
         $(".hero-bg").find("video").each(function() {
-            this.pause();
+            this.play();
         });
     });
     swiper.on("slideChangeTransitionEnd", function() {
@@ -80,7 +76,7 @@ $(function() {
         else autoStart();
         return false;
     });
-	
+
     // 3. navigation
     // 3.1. navigation launcher
     $(".navigation-fire").on("click", function() {
