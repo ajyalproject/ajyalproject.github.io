@@ -42,19 +42,19 @@
 /* 1. TEMPLATE BACKGROUNDS */
 /* 1.1. team IMG BACKGROUND */
 .carousel-item-team-01 {
-background-image: url(../img/team/1.jpg);
+background-image: url(https://cdn.jsdelivr.net/gh/ajyalproject/cdn-media/img/team/1.jpg);
 }
 
 .carousel-item-team-02 {
-background-image: url(../img/team/2.jpg);
+background-image: url(https://cdn.jsdelivr.net/gh/ajyalproject/cdn-media/img/team/2.jpg);
 }
 
 .carousel-item-team-03 {
-background-image: url(../img/team/3.jpg);
+background-image: url(https://cdn.jsdelivr.net/gh/ajyalproject/cdn-media/img/team/3.jpg);
 }
 
 .carousel-item-team-04 {
-background-image: url(../img/team/4.jpg);
+background-image: url(https://cdn.jsdelivr.net/gh/ajyalproject/cdn-media/img/team/4.jpg);
 }
 
 
@@ -1425,7 +1425,7 @@ line-height: 34px;
 }
 
 .logo .logo-img::before {
-background: url(../img/logo.png) no-repeat;
+background: url(https://cdn.jsdelivr.net/gh/ajyalproject/cdn-media/img/logo.png) no-repeat;
 }
 
 
@@ -2453,6 +2453,21 @@ cursor: grab;
 .owl-nav-custom-perpisahan,
 .owl-nav-custom-himapol,
 .owl-nav-custom-works {
+position: relative;
+width: 114px!important;
+max-width: 114px;
+height: 50px;
+left: 2px;
+right: 0;
+margin-left: auto; 
+margin-right: auto; 
+margin: 19px auto 0 auto;
+text-align: center;
+overflow: hidden;
+}
+
+.owl-nav-custom-prewed,
+.owl-nav-custom-studio {
 position: relative;
 width: 114px!important;
 max-width: 114px;

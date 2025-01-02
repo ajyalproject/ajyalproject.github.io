@@ -23,14 +23,14 @@ function setPageTitle(pageParam) {
 
     // Sesuaikan title berdasarkan parameter
     switch (pageParam) {
-        case 'home':
-            pageTitle = 'Home Page';
+        case 'couple-studio':
+            pageTitle = 'Studio Projects';
             break;
-        case 'about':
-            pageTitle = 'About Us';
+        case 'friendship-studio':
+            pageTitle = 'Studio Projects';
             break;
-        case 'contact':
-            pageTitle = 'Contact Us';
+        case 'group-studio':
+            pageTitle = 'Studio Projects';
             break;
         // Tambahkan case lain sesuai kebutuhan
         default:
@@ -178,6 +178,72 @@ $(document).ready(function(){
         nav: true,
         navText: ["<i class='ion-chevron-left'></i>", "<i class='ion-chevron-right'></i>"],
         navContainer: '.owl-nav-custom-himapol',
+        responsive: {
+            0: {
+                items: 1,
+                margin: 30
+            },
+            768: {
+                items: 2,
+                margin: 40
+            },
+            980: {
+                items: 2,
+                margin: 40
+            },
+            1240: {
+                items: 3,
+                margin: 50
+            }
+        }
+    });
+});
+
+$(document).ready(function(){
+    $("#owl-carousel-prewed").owlCarousel({
+        loop: false,
+        center: false,
+        autoplay: false,
+        autoplaySpeed: 1000,
+        autoplayTimeout: 5000,
+        smartSpeed: 450,
+        nav: false,
+        nav: true,
+        navText: ["<i class='ion-chevron-left'></i>", "<i class='ion-chevron-right'></i>"],
+        navContainer: '.owl-nav-custom-prewed',
+        responsive: {
+            0: {
+                items: 1,
+                margin: 30
+            },
+            768: {
+                items: 2,
+                margin: 40
+            },
+            980: {
+                items: 2,
+                margin: 40
+            },
+            1240: {
+                items: 3,
+                margin: 50
+            }
+        }
+    });
+});
+
+$(document).ready(function(){
+    $("#owl-carousel-studio").owlCarousel({
+        loop: false,
+        center: false,
+        autoplay: false,
+        autoplaySpeed: 1000,
+        autoplayTimeout: 5000,
+        smartSpeed: 450,
+        nav: false,
+        nav: true,
+        navText: ["<i class='ion-chevron-left'></i>", "<i class='ion-chevron-right'></i>"],
+        navContainer: '.owl-nav-custom-studio',
         responsive: {
             0: {
                 items: 1,
