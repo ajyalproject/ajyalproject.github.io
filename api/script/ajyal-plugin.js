@@ -1,15 +1,4 @@
 /*
-  [JS Index - plugins]
-  
-  ---
-  
-  Template Name: Roundex - Circular Photography and Video Portfolio
-  Author:  ex-nihilo
-  Version: 1.0
-*/
-
-
-/*
   1. jQuery v3.5.1
   2. Owl Carousel v2.2.1
   3. Magnific Popup v1.1.0

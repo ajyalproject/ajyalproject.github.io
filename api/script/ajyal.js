@@ -1,14 +1,3 @@
-/*
-  [JS Index]
-  
-  ---
-  
-  Template Name: Roundex - Circular Photography and Video Portfolio
-  Author:  ex-nihilo
-  Version: 1.0
-*/
-
-
 /* 
   1. preloader
   2. swiper slider
