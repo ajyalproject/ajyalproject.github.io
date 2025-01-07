@@ -50,3 +50,31 @@ z-index: 100;
 .hide-play {
   display: none;
 }
+
+.clearfix:after, .clearfix:before, .sp-pagebuilder-row:after, .sp-pagebuilder-row:before, .sppb-container-fluid:after, .sppb-container-fluid:before, .sppb-container:after, .sppb-container:before, .sppb-nav:after, .sppb-nav:before, .sppb-panel-body:after, .sppb-panel-body:before {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.addon-text-block .addon-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.addon-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+addon-title {
+  margin-bottom: 8px;
+  color: var(--text-light-dark-color1);
+}
