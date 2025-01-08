@@ -50,23 +50,23 @@
 /* 1. TEMPLATE BACKGROUNDS */
 /* 1.1. single IMG BACKGROUND */
 .bg-img-SINGLE {
-  background-image: url(https://cdn.jsdelivr.net/gh/ajyalproject/cdn-media/img/banner.JPG);
+  background-image: url(../../img/banner.JPG);
 }
 
 @media only screen and (max-width: 995px) {
   .bg-img-SINGLE {
-    background-image: url(https://cdn.jsdelivr.net/gh/ajyalproject/cdn-media/img/banner-mobile.png);
+    background-image: url(../../img/banner-mobile.png);
   }
 }
 
 /* 1.2. benefits IMG BACKGROUND */
 .img-fullwidth-benefits-carousel-1 {
-  background-image: url(https://cdn.jsdelivr.net/gh/ajyalproject/cdn-media/img/contact.JPG);
+  background-image: url(../../img/contact.JPG);
 }
 
 /* 1.3. parallax IMG BACKGROUND */
 .parallax-purchase {
-  background-image: url(https://cdn.jsdelivr.net/gh/ajyalproject/cdn-media/img/parallax.JPG);
+  background-image: url(../../img/parallax.JPG);
 }
 
 /* 2. reset */
